@@ -7,6 +7,12 @@
 - `vpx verify [*.sv files]`: Identifies functional bugs in a SystemVerilog module hierarchy through testbenches
 - `vpx implement <instructions>`: Implements RTL modules based on high-level design instructions.
 
+## Using the `vpx verify` Command
+
+The `vpx verify` command conductions functional verification. More info coming shortly.
+
+
+
 ---
 
 ## Installation Steps
@@ -237,17 +243,4 @@ The `TopModule` implements an FSM to model a Lemming's walking, falling, and dig
 
 From these examples, we can see it is advantageous to provide module interfaces and concise logic descriptions in the specifications.
 ---
-
-## Using the `vpx document` Command
-
-The `vpx document` command will soon generate module documentation based on RTL code or natural language input.
-
-Coming soon.
-
-## Using the `vpx debug` Command
-
-The `vpx debug` command will offer debugging tools, including logic cone analysis, timing diagrams, and autonomous RTL debugging assistance.
-
-Coming soon.
-
---- 
+ 
