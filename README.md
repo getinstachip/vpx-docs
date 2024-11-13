@@ -35,7 +35,7 @@ When prompted, enter:
 
 - **Command Not Found**: Verify `pipx` installation and ensure it’s in your PATH.
 - **Login Issues**: Check that the correct email and license key are used and confirm internet connectivity.
-- **Dependency Issues**: Reinstall VPX using `pipx reinstall vpx` if needed.
+- **Dependency Issues**: Reinstall VPX using `pipx uninstall vpx` and `pipx install vpx` if needed.
 
 ---
 
